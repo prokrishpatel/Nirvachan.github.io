@@ -1,0 +1,175 @@
+ /* Welcome screen  */
+.welcome-bg
+{
+    background-image: url("../Media/LoginBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+.no-mar-pad
+{
+    margin: 0;
+    padding: 0;
+}
+.overlay
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Logo Set  */
+.logo-side
+{
+    height: 60px;
+    margin: 0;
+    position: relative;
+}
+#Nirvachan-logo
+{
+    position: absolute;
+    color: white;
+    left: 3%;
+    top: 1rem;
+}
+#Nirvachan-logo h2, h4 
+{
+
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+}
+#EC-logo
+{
+    position: absolute;
+    right: 3%;
+    top: 1rem;
+}
+.welcome-main
+{
+    width: 100%; 
+    padding: 2rem; 
+    box-sizing: border-box;
+    margin-top: 2rem;
+}
+
+.login-diplay
+{
+    border-radius: 0rem 0rem 2rem 2rem;
+    width: 400px;
+    height: 400px;
+    transition: all 2s;
+}
+.dark-bg
+{
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+/* Common Properties */
+.centered-flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border-bottom: 2px solid #ccc;
+  background-color: black;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  color: white;
+  font-size: 1rem;
+  /* top right bottm left  */
+  margin: 3px 0px 0px 0px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #dddddd;
+  color: black;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+  color : black;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  text-align: center;
+  padding: 6px 12px;
+  color: #ccc;
+}
+
+
+
+#Login-form input
+{ 
+  width: 80%;
+  font-size: 1rem;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  border: none;
+  margin: 1em;
+  padding: 0.5rem;
+}
+.submit-button
+{
+  background-image: linear-gradient(45deg,orange,white,green);
+  margin: 10px;
+  height: 2.5rem; width: 6rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.submit-button:hover
+{
+  opacity: 0.6;
+}
+#Register-form input
+{
+  width: 40%;
+  margin: 0.5em;
+  padding: 0.5rem;
+  font-size: 1rem;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  border: none;
+}
+.about-display
+{
+  width: 700px;
+  height: 500px;
+  border: 2px solid;
+  margin: 3rem;
+  padding: 1rem;
+}
+.module-headding
+{
+  color: #ccc;
+  font-size: 2rem;
+}
+.module-content
+{
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0.2em;
+}
