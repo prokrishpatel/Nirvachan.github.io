@@ -40,9 +40,9 @@
                 <div class="login-diplay dark-bg">
                     <!-- Tab -->
                     <div class="tab">
-                        <button id="default-login"  class="tablinks" onclick="openCity(event, 'Login')">Login</button>
+                        <button   class="tablinks" onclick="openCity(event, 'Login')">Login</button>
 
-                        <button  class="tablinks" onclick="openCity(event, 'Register')">Register</button>
+                        <button id="default-login" class="tablinks" onclick="openCity(event, 'Register')">Register</button>
                     </div>
                     <!-- Tab content  -->
                     <div id="Login" class="tabcontent">
@@ -70,13 +70,27 @@
 
                             <input type="email" id="email" placeholder="Email">
 
+                            <input type="text"
+                            id="adn" placeholder="Aadhar No." maxlength="12" minlength="12">
+
+                            <input type="text"
+                            id="vid" placeholder="Voter ID">
+
+                            
+
                             <input type="password" placeholder="Set 6 Digit Password">
 
                             <input type="password" placeholder="Confirm Password">
+                            
+                            <input type="file" id="aadhar" accept="image/*">
+                            
+                            <input type="file" id="aadhar" accept="image/*">
+                            
 
                             <button class="submit-button" type="submit">Submit</button>
+
                         </form>
-                        
+                        <div class="alert">* Make sure to enter your details as mentioned in your AADHAR</div>
                     </div>
                 </div>
             </main>
