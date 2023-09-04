@@ -56,8 +56,7 @@
 {
     border-radius: 0rem 0rem 2rem 2rem;
     width: 400px;
-    /* height: 400px; */
-    transition: all 2s;
+    height: auto;
 }
 .dark-bg
 {
@@ -152,10 +151,17 @@
   color: white;
   border: none;
 }
-#Register-form input[type="file"]
+#Register-form input[type="file"] 
 {
   background-color: transparent;
   font-size: smaller;
+  text-overflow:clip;
+  width: 45%;
+}
+.upload-details
+{
+  width: 40%;
+  display: inline-block;
 }
 .alert
 {
@@ -164,10 +170,10 @@
 .about-display
 {
   width: 700px;
-  height: 500px;
-  border: 2px solid;
+  height: auto;
   margin: 3rem;
   padding: 1rem;
+  box-sizing: border-box;
 }
 .module-headding
 {
@@ -181,4 +187,36 @@
   color: white;
   font-family: 'Times New Roman', Times, serif;
   padding: 0.2em;
+}
+.slideshow-container
+{
+ 
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  display: flex;
+
+  align-items: center;
+}
+.slide 
+{
+  width: 70%;
+}
+.gradient-text {
+  background: linear-gradient(to right, orange,white,green);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.slide-head
+{
+  margin: 30px;
+  color : white;
+}
+.slide-content
+{
+  margin-left: 30px;
+  font-size: 1.2rem;
+  color: beige;
+  padding: 20px;
 }
