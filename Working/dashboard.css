@@ -194,6 +194,8 @@ main{
     position: relative;
     background-color: white;
     box-shadow: 0 0 20px rgba(0,0,0,.3);
+    display: flex;
+    justify-content: center;
 }
 .heading {
             position: absolute;
@@ -203,14 +205,52 @@ main{
             padding: 5px 20px 5px 20px;
             border-radius: 20px;
             color: white;
+            font-weight: 300;
         }
 .content
 {
-    width: 100%;
+    width: 95%;
     height: 99%;
     overflow:auto;
     color: #909090;
     margin-top: 40px;
     position: relative;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.l-content
+{
+    display: inline-block;
+    width: 80%;
+    text-align: start;
+}
+.r-content 
+{
+    display: inline-block;
+    width: 20%;
+    text-align: end;
+}
+.youtube{
+    border: 1px solid #f68121;
+    border-radius: 20px;
+    margin: 10px;
+}
+#vote-button
+{
+    width: 200px;
+    height: 100px;
+    background-image: linear-gradient(45deg,orange,white,green);
+    border: none;
+    border-radius: 20px;
+    font-size: 1.8rem;
+    margin: 20px;
+    transition: 0.5s;
+}
+#vote-button:hover
+{
+    background-image: none;
+    background-color: #f68121;
+    color: #ebe5e5;
+    opacity: 0.8;
+
 }

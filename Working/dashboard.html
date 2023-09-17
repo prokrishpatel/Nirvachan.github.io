@@ -6,13 +6,10 @@
     <title>Nirvachan-Dashboard</title>
 
      <!-- icon -->
-     <link rel="shortcut icon" type="image/x-icon" href="Media/logo.png">
+     <link rel="shortcut icon" type="image/x-icon" href="../Media/logo.png">
 
      <!-- css  -->
     <link rel="stylesheet" href="dashboard.css">
-
-    <!-- Animate -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/02e8b68ce5.js" crossorigin="anonymous"></script>
@@ -28,13 +25,13 @@
         <div class="menu">
             <ul class="no-list-style horizontal-list text-center nav-menu">
                 <li>
-                    <a href="#vote">Let's Vote</a>
+                    <a href="vote.html">Let's Vote</a>
                 </li>
                 <li>
                     <a href="#result">Result</a>
                 </li>
                 <li>
-                    <a href="#upcoing">Upcoming</a>
+                    <a href="#upcoming">Upcoming</a>
                 </li>
                 
                 <li>
@@ -66,26 +63,93 @@
        </section>
 
        <section id="upcoming" class="container">
-        <h1 class="heading"><i class="fa-solid fa-calendar-days"></i> Upcoming</h1>
+            <h1 class="heading"><i class="fa-solid fa-calendar-days"></i> Upcoming</h1>
 
-        <div class="content">
-            Vidhan Sabha - Mizoram - 2023 
-            <hr>
-            Vidhan Sabha - Chhattisgarh - 2024 
-            <hr>
-            Vidhan Sabha - Madhya Pradesh - 2024 
-            <hr>
-            Lok Sabha - Bharat - 2024 
-            <hr>
+            <div class="content">
+                <span class="l-content">Vidhan Sabha - Mizoram</span>
+                <span class="lr-content">2023</span>
+                <hr>
+                <span class="l-content">Lok Sabha - Bharat</span>
+                <span class="lr-content">2024</span>
+                <hr>
+                <span class="l-content">Vidhan Sabha - Chhattisgarh</span>
+                <span class="lr-content">2024</span>
+                <hr>
 
-        </div>
+                <span class="l-content">Vidhan Sabha - Madhya Pradesh</span>
+                <span class="lr-content">2024</span>
+                <hr>
+
+                <span class="l-content">Vidhan Sabha - Rajasthan</span>
+                <span class="lr-content">2024</span>
+                <hr>
+
+                <span class="l-content">Vidhan Sabha - Telangana</span>
+                <span class="lr-content">2024</span>
+                <hr>
+
+                <span class="l-content">Vidhan Sabha - Andhra Pradesh</span>
+                <span class="lr-content">2024</span>
+
+            </div>
        </section>
        <section id="result" class="container">
+        <h1 class="heading"><i class="fa-solid fa-square-poll-vertical"></i> Result</h1>
 
-       </section>
+        <div class="content">
+            Karnataka : <b>CONG 135</b>, BJP 66, JD(S) 19, OTH 4
+            <hr> 
+        </div>
+    </section>
+ 
+   <section id="history" class="container">
+    <h1 class="heading"><i class="fa-solid fa-clock-rotate-left"></i> History</h1>
 
+    <div class="content">
+        10/09/2018 - Vidhan Shabha - Madhya Pradash
+        <hr> 
+        02/10/2019 - Lok Shabha - Madhya Pradash
+        <hr> 
+    </div>
+</section>
 
+<section id="current" class="container">
+    <h1 class="heading"><i class="fa-solid fa-snowflake"></i> Current Status</h1>
+
+    <div class="content">
+        <b>
+        <span class="l-content">Bharat</span>
+        <span class="lr-content">BJP</span>
+        <hr>
+        </b>
+        <span class="l-content">Andhra Pradesh</span>
+        <span class="lr-content">YSRCP</span>
+        <hr>
+
+        <span class="l-content">Punjab</span>
+        <span class="lr-content">APP</span>
+        <hr>
+
+        <span class="l-content">Madhya Pradesh</span>
+        <span class="lr-content">BJP</span>
+        <hr>
+
+        <span class="l-content">Gujrat</span>
+        <span class="lr-content">BJP</span>
+        <hr>
+
+        <span class="l-content">Kerala</span>
+        <span class="lr-content">LDF</span>
+        <hr>
+    </div>
+</section>
+    
     </main>
+    <button type="button" id="vote-button" onclick="window.location.href = 'vote.html'">
+    Let's Vote</button>
+    <br>
+    
+    <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/tXTuyJ2fdaw?si=EyeB8KVsPVDXuhDO" frameborder="0" allowfullscreen></iframe>
     <script src="dashboard.js"></script>
 </body>
 </html>
