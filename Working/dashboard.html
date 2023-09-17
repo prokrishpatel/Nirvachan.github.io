@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirvachan-Dashboard</title>
+
+     <!-- icon -->
+     <link rel="shortcut icon" type="image/x-icon" href="Media/logo.png">
+
+     <!-- css  -->
+    <link rel="stylesheet" href="dashboard.css">
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/02e8b68ce5.js" crossorigin="anonymous"></script>
+
+</head>
+<body class="no-mar-pad">
+    <nav class="dash-nav no-mar-pad">
+        <div class="logo">
+           <h2 class="gradient-text no-mar-pad lspace">NIRVACHAN</h2>
+           <hr class="no-mar-pad">
+           <h4 class="no-mar-pad">Online Voting System</h4>
+        </div>
+        <div class="menu">
+            <ul class="no-list-style horizontal-list text-center nav-menu">
+                <li>
+                    <a href="#vote">Let's Vote</a>
+                </li>
+                <li>
+                    <a href="#result">Result</a>
+                </li>
+                <li>
+                    <a href="#upcoing">Upcoming</a>
+                </li>
+                
+                <li>
+                    <a href="#history">History</a>
+                </li>
+            </ul>
+        </div>
+        <div class="profile">
+            <i class="fa-solid fa-user" id="profile-icon"></i>
+        </div>
+        <div class="side-panel">
+            <i class="fa-solid fa-x" id="cross"></i>
+            <div class="porfile-img">
+                <img src="../Media/profilr.png.jpg">
+            </div>
+            <div class="profile-content">
+               
+            </div>
+            <button type="button" class="log-out" onclick="window.location.href = '../index.html'">Log Out</button>
+        </div>
+    </nav>
+
+
+    <main>
+       <section id="slide-show">
+        <img src="../Media/Slide_Show/i1.png">
+        <img src="../Media/Slide_Show/i2.png">
+        <img src="../Media/Slide_Show/i3.png">
+       </section>
+
+       <section id="upcoming" class="container">
+        <h1 class="heading"><i class="fa-solid fa-calendar-days"></i> Upcoming</h1>
+
+        <div class="content">
+            Vidhan Sabha - Mizoram - 2023 
+            <hr>
+            Vidhan Sabha - Chhattisgarh - 2024 
+            <hr>
+            Vidhan Sabha - Madhya Pradesh - 2024 
+            <hr>
+            Lok Sabha - Bharat - 2024 
+            <hr>
+
+        </div>
+       </section>
+       <section id="result" class="container">
+
+       </section>
+
+
+    </main>
+    <script src="dashboard.js"></script>
+</body>
+</html>

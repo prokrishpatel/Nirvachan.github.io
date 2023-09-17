@@ -2,7 +2,7 @@
 .welcome-bg
 {
     background-image: url("../Media/LoginBg.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 

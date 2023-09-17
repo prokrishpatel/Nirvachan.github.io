@@ -1,0 +1,216 @@
+.dash-nav{
+    height: 4rem;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 15px rgba(0,0,0,.2), 0 1px 6px rgba(0,0,0,.2);
+    position: fixed;
+    z-index: 200;
+}
+.no-mar-pad
+{
+    margin: 0;
+    padding: 0;
+}
+.logo
+{
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 10.5rem;
+    text-align: center;
+    color: black;
+    display: inline-block;
+    margin-left: 1rem;
+}
+.gradient-text {
+    background: linear-gradient(45deg, rgb(255, 68, 0),black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+.lspace
+{
+    letter-spacing: 2.5px;
+}
+
+.menu{
+    display: inline-block;
+    margin-top: 1.4rem;
+}
+.no-list-style{
+    list-style: none;
+}
+.no-list-style li {
+    font-weight: 100;
+    font-size: 1rem;
+    
+}
+.no-list-style li a{
+    list-style: none;
+    color: #909090;
+    text-decoration: none;
+}
+.horizontal-list
+{
+
+	padding-left: 0px;
+	margin: 0px;
+}
+.horizontal-list li
+{
+	display: inline-block;
+	margin: 0px 2rem 10px 0px;
+}
+.horizontal-list li a 
+{
+	color: #7d7d7d;
+	text-decoration: none;
+	
+}
+.nav-menu li a
+{
+	transition: color 0.5s, border-bottom 4s ;
+	font-size: 1.2em;
+}
+.nav-menu li a:hover
+{
+    border-bottom: 1px solid #909090;
+	color: red;
+}
+.horizontal-list li a:hover
+{
+	color: red;
+}
+.profile
+{
+    height: 2rem;
+    width: 2rem;
+    border: 2px solid #909090;
+    border-radius: 100%;
+    margin-top: 16px;
+    color: #909090;
+    text-align: center;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    padding-top: 2.8px;
+    margin-right: 1rem;
+}
+
+.side-panel
+{
+    position: absolute;
+    right: -20rem;
+    display: none;
+    width: 15rem;
+    background-color: #f68121;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: 1s;
+    z-index: 2;
+    position: fixed;
+}
+
+.side-panel i 
+{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.porfile-img
+{
+    margin-top: 30px ;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 0 2px 3px #909090;
+    border-radius: 50%;
+}
+.porfile-img img 
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.profile-content
+{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    margin-top: -15rem;
+}
+.log-out
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    background: linear-gradient(45deg, rgb(255, 68, 0),black);
+}
+.log-out:hover{
+    opacity: 0.6;
+}
+body{
+    overflow-x: hidden;
+    text-align: center;
+    background-color: #ebe5e5;
+
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#slide-show {
+    width: 100%;
+    height: 250px;
+    margin-top: 100px;
+    /* overflow: hidden; */
+}
+
+#slide-show img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.container
+{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 30px;
+    border: 1px solid #f68121;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+}
+.heading {
+            position: absolute;
+            top: -35px; /* Adjust this value to position the heading as desired */
+            left: 35px; /* Adjust this value to position the heading as desired */
+            background-color: #f68121;
+            padding: 5px 20px 5px 20px;
+            border-radius: 20px;
+            color: white;
+        }
+.content
+{
+    width: 100%;
+    height: 99%;
+    overflow:auto;
+    color: #909090;
+    margin-top: 40px;
+    position: relative;
+    font-size: 1.3rem;
+}
